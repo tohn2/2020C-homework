@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Please enter fuel consumption per 100 km(UN):";
+    double UN;
+    cin >> UN;
+
+    cout <<" Gallons per mile(US) : "<< 1 / UN*62.14*3.875;
+
+    system("pause");
+    return 0;
+}

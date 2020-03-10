@@ -1,0 +1,15 @@
+#include <iostream>
+
+const double Inch_per_feet = 12.0;
+using namespace std;
+int main(void)
+{
+    cout << "Please enter your height:_____\b\b\b\b\b";
+    double ht_inch;
+    cin >> ht_inch;
+
+    double ht_feet = ht_inch/Inch_per_feet;
+    cout << "Your height is:" << ht_feet << " feets<<endl";    
+    
+    return 0;
+}
